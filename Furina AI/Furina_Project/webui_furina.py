@@ -7,7 +7,7 @@ from peft import PeftModel
 from modelscope import snapshot_download
 
 # ==================== 1. 路径和环境准备 ====================
-D_PROJECT_PATH = "D:/JLUA/Furina_Project"
+D_PROJECT_PATH = "D:/JLUA/Furina AI/Furina_Project"
 os.environ["MODELSCOPE_CACHE"] = f"{D_PROJECT_PATH}/ModelCache"
 lora_path = f"{D_PROJECT_PATH}/sft_furina_7b_lora"
 
